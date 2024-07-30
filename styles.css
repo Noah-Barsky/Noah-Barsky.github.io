@@ -1,0 +1,7 @@
+.imageDisplay {
+display: grid;
+grid-template-columns: repeat(2, 30em);
+grid-template-rows: repeat(2, 30em);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}

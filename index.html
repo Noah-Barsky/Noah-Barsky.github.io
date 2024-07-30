@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ePub3 Reader</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </head>
 
 <body>
-    <nav class="pico-color-azure-500">
-        <ul>
-            <li><strong>Noah Barsky's Android ePub3 Reader Official Page</strong></li>
-        </ul>
-        <ul>
-            <li><button class="pico-color-azure-150" href="#" data-tooltip="Not Yet Available" data-placement="bottom">Download Here</button></li>
-        </ul>
-    </nav>
+    <!-- Header -->
+    <header class="container">
+        <nav>
+            <ul>
+                <li>
+                    <h3>Noah Barsky's Android ePub3 Reader Official Page</h3>
+                </li>
+            </ul>
+            <ul>
+                <li><button href="#" data-tooltip="Not Yet Available" data-placement="bottom">Download Here</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <div class="grid">
+            <article id="article">
+                <header>
+                    <h2>The ePub Reader</h2>
+                </header>
+                By Default The Book Content Is Displayed Right-To-Left Top-To-Bottom!
+                <footer>
+                    <img src="images/book_image.jpg" alt="book image" width="200">
+                </footer>
+            </article>
+
+            <article id="article">
+                <header>
+                    <h2>The Dictionary</h2>
+                </header>
+                With An Inbuilt Dictionary
+                <br>
+                Tap And Hold To Instantly Add A Word To Anki!
+                <footer>
+                    <img src="images/dict_image.jpg" alt="book image" width="200">
+                </footer>
+            </article>
+        </div>
+    </main>
 
 </body>
 
